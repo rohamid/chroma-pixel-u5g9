@@ -6,8 +6,50 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 44.45 44.45)
-		(size 57.15 45.72)
+		(at 161.29 111.76)
+		(size 33.02 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29f38a54-1de1-4072-8da2-38b5cdc8846d")
+		(property "Sheetname" "USB"
+			(at 161.29 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-Power.kicad_sch"
+			(at 161.29 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "chroma-pixel-u5g9"
+				(path "/439b205a-84a5-4f71-9e86-c11126d8e75a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 27.94)
+		(size 48.26 125.73)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +64,7 @@
 		)
 		(uuid "3d2034e8-001f-4c2d-8289-7d7628fc9507")
 		(property "Sheetname" "MCU"
-			(at 44.45 43.7384 0)
+			(at 99.06 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32U5G9ZJTx.kicad_sch"
-			(at 44.45 90.7546 0)
+			(at 99.06 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 44.45 110.49)
-		(size 57.15 44.45)
+		(at 161.29 27.94)
+		(size 34.29 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +106,7 @@
 		)
 		(uuid "931eed87-93da-4ed9-8301-4d9782c518b2")
 		(property "Sheetname" "DISPLAY"
-			(at 44.45 109.7784 0)
+			(at 161.29 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +115,172 @@
 			)
 		)
 		(property "Sheetfile" "LCD-ST7701s.kicad_sch"
-			(at 44.45 155.5246 0)
+			(at 161.29 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BL_EN" input
+			(at 161.29 64.77 180)
+			(uuid "d14b4290-b12f-47e3-ab03-b26f4f841679")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTP_SCL" input
+			(at 161.29 72.39 180)
+			(uuid "802818f1-ab88-4513-ac5f-22fd242316d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTP_RST" input
+			(at 161.29 69.85 180)
+			(uuid "74b87fb9-cd69-418f-9dba-c4660c63f411")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_RST" input
+			(at 161.29 52.07 180)
+			(uuid "381d372d-f365-42e8-8d28-31a49e6d9339")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_R{3..7}" input
+			(at 161.29 41.91 180)
+			(uuid "5fabdcca-68f4-4f0d-a15a-6d040b86d4c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTP_SDA" bidirectional
+			(at 161.29 74.93 180)
+			(uuid "2ae03fa5-a43c-4d9a-b158-1544d495f41d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SPI_DAT" input
+			(at 161.29 54.61 180)
+			(uuid "e64d5b26-d8be-4a42-aeae-732706b97176")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SPI_CLK" input
+			(at 161.29 57.15 180)
+			(uuid "adb32687-e0d2-48d3-bddb-51712ae8c9cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_HSYNC" input
+			(at 161.29 39.37 180)
+			(uuid "0dfa546d-7c0e-430c-afa4-19630afbeccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_VSYNC" input
+			(at 161.29 36.83 180)
+			(uuid "30872933-ea72-46fc-8ae0-233737fc5f14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SPI_CS" input
+			(at 161.29 59.69 180)
+			(uuid "4e9c4d4e-957c-47de-bca1-c05b7adbef39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_DE" input
+			(at 161.29 34.29 180)
+			(uuid "7a1873ca-8e95-42dd-9717-1189c52e99d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_PCLK" input
+			(at 161.29 31.75 180)
+			(uuid "a02a2d2f-58e2-402a-8aa9-8bd82fb6c285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTP_INT" output
+			(at 161.29 77.47 180)
+			(uuid "4d9b676d-73a8-4a34-a29f-983d70222976")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_G{2..7}" input
+			(at 161.29 44.45 180)
+			(uuid "fb918af3-a74d-4e13-b308-dd2da42a3ee7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_B{3..7}" input
+			(at 161.29 46.99 180)
+			(uuid "97462b3c-92c6-4171-b524-b16f71bdf299")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -90,8 +292,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 48.26)
-		(size 48.26 40.64)
+		(at 161.29 87.63)
+		(size 34.29 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +308,7 @@
 		)
 		(uuid "dfae88b6-bcc7-4f5d-bdae-11de35998c3e")
 		(property "Sheetname" "OCTOSPI"
-			(at 133.35 47.5484 0)
+			(at 161.29 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,12 +317,62 @@
 			)
 		)
 		(property "Sheetfile" "MX66LM1G45GXDI00.kicad_sch"
-			(at 133.35 89.4846 0)
+			(at 161.29 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 161.29 91.44 180)
+			(uuid "1ee7a4b3-f47d-4f3b-847d-c77f2ace73a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CS}" input
+			(at 161.29 96.52 180)
+			(uuid "8769aa49-463b-482b-b6e7-288df8ddb8bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 161.29 99.06 180)
+			(uuid "04487f1c-a068-4667-875c-81b2022521d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIO{0..7}" bidirectional
+			(at 161.29 101.6 180)
+			(uuid "af14b2be-f4d0-4e6d-a656-acf627c1f676")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DQS" input
+			(at 161.29 93.98 180)
+			(uuid "bc9ee0d9-978f-4c69-9936-25ad290eaf44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

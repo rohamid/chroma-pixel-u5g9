@@ -2107,7 +2107,7 @@
 		(uuid "46c1afb3-dae7-42a6-bef1-90abd83c36ab")
 	)
 	(hierarchical_label "SIO{0..7}"
-		(shape input)
+		(shape bidirectional)
 		(at 111.76 105.41 180)
 		(effects
 			(font
@@ -2140,7 +2140,7 @@
 		(uuid "e80f59bf-faa0-464a-b9ae-0e9e5f6441e2")
 	)
 	(hierarchical_label "DQS"
-		(shape output)
+		(shape input)
 		(at 120.65 102.87 180)
 		(effects
 			(font

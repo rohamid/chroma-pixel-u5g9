@@ -8349,21 +8349,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 358.14 110.49) (xy 386.08 110.49) (xy 386.08 85.09) (xy 358.14 85.09)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 056b2aff-7fcb-4991-9a29-45497df03b02)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 240.03 144.78) (xy 265.43 144.78) (xy 265.43 119.38) (xy 240.03 119.38)
 			)
 			(stroke
@@ -8373,157 +8358,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 0c1d3207-3dd9-4129-84ae-1949cd22cdde)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 304.8 144.78) (xy 304.8 119.38) (xy 274.32 119.38) (xy 274.32 144.78)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 29662c14-0ddc-4da4-9bbc-45f5fa2d0b24)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 274.32 110.49) (xy 304.8 110.49) (xy 304.8 85.09) (xy 274.32 85.09)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 571174e4-9e09-4b2e-bfae-1841d1d8dce9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 299.72 203.2) (xy 299.72 224.79) (xy 316.23 224.79) (xy 316.23 203.2)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7c66498d-3abb-46d1-9e44-f43e390732a2)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 293.37 154.94) (xy 341.63 154.94) (xy 341.63 186.69) (xy 293.37 186.69)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 9feb61ac-191e-4539-805d-8c0bcabcf504)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 240.03 110.49) (xy 265.43 110.49) (xy 265.43 85.09) (xy 240.03 85.09)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid b2279875-aadb-47de-9d26-b2c94389b91a)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 240.03 78.74) (xy 381 78.74) (xy 381 52.07) (xy 240.03 52.07)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid bda61593-d8ab-420c-8832-aa51b4491268)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 240.03 154.94) (xy 285.75 154.94) (xy 285.75 186.69) (xy 240.03 186.69)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid e1b277f1-c4df-47c8-a177-17592ea8d5a7)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 313.69 119.38) (xy 313.69 144.78) (xy 360.68 144.78) (xy 360.68 119.38)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid ef2e7222-9e6b-4c4e-bb8b-1390ab0e8718)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 240.03 44.45) (xy 276.86 44.45) (xy 276.86 16.51) (xy 240.03 16.51)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid f2b46dbd-e321-41bf-ba5d-58fcbfaedf59)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 313.69 110.49) (xy 349.25 110.49) (xy 349.25 85.09) (xy 313.69 85.09)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid f35af6dc-d91d-494c-b69f-8c7de6b0b589)
+			(uuid 332ba570-ba48-4eee-8aa1-917dcd2bd1d7)
 		)
 	)
 	(rule_area
@@ -8538,7 +8373,172 @@
 			(fill
 				(type none)
 			)
-			(uuid fd600d0d-886d-4da8-8b6d-2be43776b19a)
+			(uuid 3d4db17f-4c37-4f0a-ace0-f37c85975c88)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 240.03 78.74) (xy 381 78.74) (xy 381 52.07) (xy 240.03 52.07)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 45ec0735-1a95-4c45-803b-4badf25d6357)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 240.03 154.94) (xy 285.75 154.94) (xy 285.75 186.69) (xy 240.03 186.69)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 49325e1c-184d-4a9f-ad33-3c7105f6df66)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 240.03 110.49) (xy 265.43 110.49) (xy 265.43 85.09) (xy 240.03 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 6d62a042-47fc-42b8-9c4a-996b5263e591)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 358.14 110.49) (xy 386.08 110.49) (xy 386.08 85.09) (xy 358.14 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9d9cc191-cc45-4b69-9d50-ddaa6d97fb5f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 299.72 203.2) (xy 299.72 224.79) (xy 316.23 224.79) (xy 316.23 203.2)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a47e45c7-722f-41ff-ba9d-493389b06af0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 313.69 119.38) (xy 313.69 144.78) (xy 360.68 144.78) (xy 360.68 119.38)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid abbea1bd-98f3-4949-ba4f-4e169581632f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 274.32 110.49) (xy 304.8 110.49) (xy 304.8 85.09) (xy 274.32 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid be6a4c6d-5dc1-4774-a81f-dee1b96e3271)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 304.8 144.78) (xy 304.8 119.38) (xy 274.32 119.38) (xy 274.32 144.78)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid be934b0c-7254-4803-863d-12be20cda08a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 313.69 110.49) (xy 349.25 110.49) (xy 349.25 85.09) (xy 313.69 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e7a42faa-09df-4c57-802e-2742a6c28287)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 293.37 154.94) (xy 341.63 154.94) (xy 341.63 186.69) (xy 293.37 186.69)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ea86b6a4-63c7-46d1-aec3-d930c753368d)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 240.03 44.45) (xy 276.86 44.45) (xy 276.86 16.51) (xy 240.03 16.51)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f693d01c-dcc3-47f5-8234-b7f74daacff8)
 		)
 	)
 	(symbol

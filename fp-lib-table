@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MX66LM1G45GXDI00")(type "KiCad")(uri "${KIPRJMOD}/lib/MX66LM1G45GXDI00/MX66LM1G45GXDI00.pretty")(options "")(descr ""))
+  (lib (name "TPS61023DRLT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61023DRLT/TPS61023DRLT.pretty")(options "")(descr ""))
+  (lib (name "TPS61042DRBT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61042DRBT/TPS61042DRBT.pretty")(options "")(descr ""))
+)

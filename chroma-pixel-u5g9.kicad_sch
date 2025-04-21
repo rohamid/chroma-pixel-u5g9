@@ -5,6 +5,126 @@
 	(uuid "439b205a-84a5-4f71-9e86-c11126d8e75a")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 147.32 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4e9d86-eef0-4bea-97dc-a3b364260039")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28197f3d-771d-43d9-b83b-16c188245c62")
+	)
+	(wire
+		(pts
+			(xy 147.32 31.75) (xy 161.29 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba6b1de-3025-471a-a229-8c23d5d7164a")
+	)
+	(wire
+		(pts
+			(xy 147.32 34.29) (xy 161.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585cb550-9a73-4ef8-a820-66816e9bc2c3")
+	)
+	(bus
+		(pts
+			(xy 147.32 46.99) (xy 161.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76908b14-65b4-4f59-8345-b89b3cf9fc53")
+	)
+	(bus
+		(pts
+			(xy 147.32 41.91) (xy 161.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f15b76-c6bb-4806-92a5-bd3a72dba967")
+	)
+	(bus
+		(pts
+			(xy 147.32 44.45) (xy 161.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e08b47-7e24-4f74-b68b-2a955098a159")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8567ef2-1372-4a72-900c-6167f38366d5")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fe98eb-f1a4-4971-be35-e4c9613f2cb0")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb44eab-a56d-4764-a0ea-a843a08e0bcf")
+	)
+	(wire
+		(pts
+			(xy 147.32 36.83) (xy 161.29 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4626e0-df78-49fd-88ea-135f73e98ccb")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8e767f-05a7-4523-b454-7d1c3706a5a1")
+	)
 	(sheet
 		(at 161.29 111.76)
 		(size 33.02 41.91)
@@ -79,6 +199,136 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "NRST" input
+			(at 147.32 86.36 0)
+			(uuid "ce3b3ef6-1103-46b4-97a1-1e7b1a991779")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI_SCLK" output
+			(at 147.32 99.06 0)
+			(uuid "db7e7cd6-72c9-4c29-b51e-fbfe969b5a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{OSPI_RESET}" output
+			(at 147.32 91.44 0)
+			(uuid "19f6c927-7041-4f34-9ad3-f3236e72fe0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI_DQS" output
+			(at 147.32 93.98 0)
+			(uuid "0d0a420d-c35d-4d19-8b46-a4300df23267")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{OSPI_CS}" output
+			(at 147.32 96.52 0)
+			(uuid "862c210f-a82e-4ff4-bbfd-decbd9f01724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIO[0..7]" bidirectional
+			(at 147.32 101.6 0)
+			(uuid "1fd552a0-2aba-4dc4-85b1-61c5615f544e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_R[3..7]" output
+			(at 147.32 41.91 0)
+			(uuid "0ec16901-41dc-4f9a-a9c0-c70e608fbbd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_B[3..7]" output
+			(at 147.32 46.99 0)
+			(uuid "bc848db6-00a8-47b3-9e9f-695ef8dcf2cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_PCLK" output
+			(at 147.32 31.75 0)
+			(uuid "03b8c9cd-bfc0-4095-aa71-2c553050542f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_G[0..7]" output
+			(at 147.32 44.45 0)
+			(uuid "01b1d845-1d7f-4992-bb54-d218a6bd4ef8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_DE" output
+			(at 147.32 34.29 0)
+			(uuid "3b23f3c6-7a55-4e96-9203-11dc6647198c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_VSYNC" output
+			(at 147.32 36.83 0)
+			(uuid "ff70de37-dd30-4998-ad73-59d2ef4014c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_HSYNC" output
+			(at 147.32 39.37 0)
+			(uuid "833c3955-c2c0-47f9-9214-e1f52af781dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -156,16 +406,6 @@
 		(pin "LCD_RST" input
 			(at 161.29 52.07 180)
 			(uuid "381d372d-f365-42e8-8d28-31a49e6d9339")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LCD_R{3..7}" input
-			(at 161.29 41.91 180)
-			(uuid "5fabdcca-68f4-4f0d-a15a-6d040b86d4c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,9 +503,9 @@
 				(justify left)
 			)
 		)
-		(pin "LCD_G{2..7}" input
-			(at 161.29 44.45 180)
-			(uuid "fb918af3-a74d-4e13-b308-dd2da42a3ee7")
+		(pin "LCD_B[3..7]" input
+			(at 161.29 46.99 180)
+			(uuid "a14d688f-6f40-4342-8cc4-0afa834a6cb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -273,9 +513,19 @@
 				(justify left)
 			)
 		)
-		(pin "LCD_B{3..7}" input
-			(at 161.29 46.99 180)
-			(uuid "97462b3c-92c6-4171-b524-b16f71bdf299")
+		(pin "LCD_G[0..7]" input
+			(at 161.29 44.45 180)
+			(uuid "5321df52-42cc-4b67-b261-8ccd2a2d04c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_R[3..7]" input
+			(at 161.29 41.91 180)
+			(uuid "d9d1a945-0dc6-49d4-bebd-37f029a73c1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,9 +605,9 @@
 				(justify left)
 			)
 		)
-		(pin "SIO{0..7}" bidirectional
-			(at 161.29 101.6 180)
-			(uuid "af14b2be-f4d0-4e6d-a656-acf627c1f676")
+		(pin "DQS" input
+			(at 161.29 93.98 180)
+			(uuid "bc9ee0d9-978f-4c69-9936-25ad290eaf44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,9 +615,9 @@
 				(justify left)
 			)
 		)
-		(pin "DQS" input
-			(at 161.29 93.98 180)
-			(uuid "bc9ee0d9-978f-4c69-9936-25ad290eaf44")
+		(pin "SIO[0..7]" bidirectional
+			(at 161.29 101.6 180)
+			(uuid "8cd243ae-f7fc-42a4-bbf6-b96afee9806f")
 			(effects
 				(font
 					(size 1.27 1.27)

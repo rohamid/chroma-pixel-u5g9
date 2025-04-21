@@ -2086,7 +2086,7 @@
 		)
 		(uuid "46c1afb3-dae7-42a6-bef1-90abd83c36ab")
 	)
-	(hierarchical_label "SIO{0..7}"
+	(hierarchical_label "SIO[0..7]"
 		(shape bidirectional)
 		(at 111.76 105.41 180)
 		(effects

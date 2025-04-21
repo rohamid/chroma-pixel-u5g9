@@ -4513,7 +4513,7 @@
 		)
 		(uuid "275da758-bd4b-42d2-8612-ef431dd6eead")
 	)
-	(hierarchical_label "LCD_B{3..7}"
+	(hierarchical_label "LCD_B[3..7]"
 		(shape input)
 		(at 205.74 104.14 180)
 		(effects
@@ -4524,7 +4524,7 @@
 		)
 		(uuid "281b8380-2ed7-456d-baf5-af529b5753aa")
 	)
-	(hierarchical_label "LCD_G{2..7}"
+	(hierarchical_label "LCD_G[0..7]"
 		(shape input)
 		(at 205.74 86.36 180)
 		(effects
@@ -4623,7 +4623,7 @@
 		)
 		(uuid "dfdc46f0-640f-433f-a457-22024cb4de39")
 	)
-	(hierarchical_label "LCD_R{3..7}"
+	(hierarchical_label "LCD_R[3..7]"
 		(shape input)
 		(at 205.74 73.66 180)
 		(effects
